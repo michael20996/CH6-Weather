@@ -14,7 +14,7 @@ $(document).ready(function(){
                     $(".wind").text("Wind Speed: " + response.wind.speed);
                     $(".humidity").text("Humidity: " + response.main.humidity);
                     $(".temp").text("Temperature (F): " + response.main.temp);
-                    $('.uv-index').text("Uv-index: " + response)
+                  
             
                 }
             })
